@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iot`](https://www.npmjs.com/package/@aws-sdk/client-iot/v/3.1104.0).
+[`@aws-sdk/client-iot`](https://www.npmjs.com/package/@aws-sdk/client-iot/v/3.1105.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-iot - [https://cloud-sdk-builds.github.io/?sdk=client-iot](https://cloud-sdk-builds.github.io/?sdk=client-iot)
-- @aws-sdk/client-iot v3.1104.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iot&version=3.1104.0](https://cloud-sdk-builds.github.io/?sdk=client-iot&version=3.1104.0)
+- @aws-sdk/client-iot v3.1105.0 - [https://cloud-sdk-builds.github.io/?sdk=client-iot&version=3.1105.0](https://cloud-sdk-builds.github.io/?sdk=client-iot&version=3.1105.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1104.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1105.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-21ZIJNg+lhk0ctZtkLsUrn4ka4CUqbBdO74xfOE6cubZU8OTWyC0yYlRXGYwibrx
+sha384-ReAcAXjJyeM5a7T5evl4UiDFQ2e6qULvmEtee5XyqpecwI0chmhGc5oHPdtFQbfS
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iot": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1104.0/index.min.mjs"
+            "@aws-sdk/client-iot": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1105.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1104.0/index.min.mjs": "sha384-21ZIJNg+lhk0ctZtkLsUrn4ka4CUqbBdO74xfOE6cubZU8OTWyC0yYlRXGYwibrx"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1105.0/index.min.mjs": "sha384-ReAcAXjJyeM5a7T5evl4UiDFQ2e6qULvmEtee5XyqpecwI0chmhGc5oHPdtFQbfS"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iot": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1104.0/index.min.mjs"
+                        "@aws-sdk/client-iot": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1105.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1104.0/index.min.mjs": "sha384-21ZIJNg+lhk0ctZtkLsUrn4ka4CUqbBdO74xfOE6cubZU8OTWyC0yYlRXGYwibrx"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iot@3.1105.0/index.min.mjs": "sha384-ReAcAXjJyeM5a7T5evl4UiDFQ2e6qULvmEtee5XyqpecwI0chmhGc5oHPdtFQbfS"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1104.0`)
+* Always pin to a specific version (`@3.1105.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iot/blob/refs/tags/3.1104.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iot/blob/refs/tags/3.1105.0/LICENSE
 ```
 
 ---
